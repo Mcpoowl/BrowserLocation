@@ -11,7 +11,7 @@
             <category>Data</category>
             <description>Attribute to store the Latitude in</description>
             <attributeTypes>
-                <attributeType name="Decimal"/>
+                <attributeType name="String"/>
             </attributeTypes>            
         </property>
             <property key="longitude" type="attribute" required="true" defaultValue="">
@@ -19,7 +19,7 @@
             <category>Data</category>
             <description>Attribute to store the Longitude in</description>
             <attributeTypes>
-                <attributeType name="Decimal"/>
+                <attributeType name="String"/>
             </attributeTypes>   
         </property>
         <property key="mf" type="microflow" required="false">
