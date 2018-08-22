@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="BrowserLocation.widget.BrowserLocation" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>BrowserLocation</name>
+    <description>The description of this widget.</description>
+
+    <icon />
+
+    <properties>
+        <property key="latitude" type="attribute" required="true" defaultValue="">
+            <caption>Latitude</caption>
+            <category>Data</category>
+            <description>Attribute to store the Latitude in</description>
+            <attributeTypes>
+                <attributeType name="Decimal"/>
+            </attributeTypes>            
+        </property>
+            <property key="longitude" type="attribute" required="true" defaultValue="">
+            <caption>Longitude</caption>
+            <category>Data</category>
+            <description>Attribute to store the Longitude in</description>
+            <attributeTypes>
+                <attributeType name="Decimal"/>
+            </attributeTypes>   
+        </property>
+        <property key="mf" type="microflow" required="false">
+        <caption>Microflow</caption>
+        <category>Data</category>
+        <description>Microflow to execute after getting a position </description>
+        <returnType type="Void"/>
+        </property>
+    </properties>
+</widget>

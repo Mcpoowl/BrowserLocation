@@ -1,0 +1,11 @@
+{
+  "generator-mendix": {
+    "promptValues": {
+      "copyright": "TimeSeries 2018",
+      "license": "Apache 2",
+      "author": "Paul Ketelaars",
+      "boilerplate": "empty",
+      "widgetoptions": []
+    }
+  }
+}
